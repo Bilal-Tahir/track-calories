@@ -1,0 +1,10 @@
+.bg-dark {
+  background-color: #5876cc !important;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
+  margin-top: 10px;
+  border-radius: 18px;
+}
+
+.nav-link {
+  color: white !important;
+}

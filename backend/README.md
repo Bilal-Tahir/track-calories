@@ -10,6 +10,25 @@ Calories Tracker is a simple and easy-to-use app designed to help you track your
 
 ## Getting Started
 
-The project frontend is built upon `react js` and backend is built upon `ruby on rails`.
+These instructions will help you get the project up and running on your local machine for development and testing purposes.
 
-The instructions to setup frontend and backend has been defined in their respectives directories readme files.
+### Pre-requisites
+
+- Ruby version 2.7.8
+- PostgreSQL
+
+### Installation
+
+- Clone repo and open project folder from terminal
+- Run `bundle install` to install all dependencies
+- Setup database
+  - Add your database info inside config/databse.yml
+  - Run `rails db:create`
+  - Run `rails db:migrate`
+  - Run `rails db:seed`
+
+## Running locally
+
+In the project directory, you can run to start the project:
+
+### `rails s`

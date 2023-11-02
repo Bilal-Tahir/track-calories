@@ -1,0 +1,59 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+# Ignore uploaded files in development.
+/storage/*
+!/storage/.keep
+
+# Ignore .env files, which may contain sensitive information.
+.env*
+
+# Ignore node modules.
+/node_modules
+
+# Ignore yarn error log files.
+.yarn-error.log
+
+# Ignore generated yarn files.
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+
+# Ignore PostgreSQL database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/*.psql
+
+# Ignore local application configuration.
+/config/application.yml
+
+# Ignore compiled assets and compiled packs.
+/public/assets
+/public/packs
+
+# Ignore cache files.
+/.sass-cache
+/public/uploads
+/tmp/cache
+
+# Ignore Puma control file.
+/tmp/pids
+/dev.log
+
+# Ignore coverage report.
+/coverage/
+
+# Ignore system and hidden files.
+.DS_Store
+Thumbs.db
+
+.byebug_history
+.browserslistrc
+
+/bin
+/storage
+/vendor

@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  entry_time: 2023-08-24 14:54:19
+  food_name: MyString
+  calorie_value: 1
+  meal: one
+
+two:
+  user: two
+  entry_time: 2023-08-24 14:54:19
+  food_name: MyString
+  calorie_value: 1
+  meal: two
